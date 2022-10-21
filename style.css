@@ -1,0 +1,97 @@
+body {
+    font-family:cursive;    
+    font-weight: 400;
+    font-size: 30px;
+    color: black;
+    background-color:rgba(247,247,247,255);
+}
+
+.heading {
+    text-align: center;
+    margin: 40px 0px;
+    font-size: 55px;
+}
+
+.player-score{
+    color:crimson;
+}
+
+.computer-score{
+    color: blue;
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+    font-size: 40px;
+}
+
+.pictures {
+    display: flex;
+    justify-content:space-around;
+}
+
+.card{
+    text-align: center;
+}
+
+.pictures .image {
+    width: 400px;
+    height: 350px;
+    border: 12px;
+}
+
+
+.card-image {
+    margin-bottom: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.card-image:hover {
+    top: -20px;
+}
+
+.card-text {
+    text-transform: capitalize;
+    font-size: 25px;
+    color:teal;
+    margin-bottom: 10px;
+}
+
+.results{
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+}
+
+.results-side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 25px;
+}
+
+.heading-sub{
+    font-size: 35px;
+    font-weight: 300;
+    color: #ff6961;
+
+}
+
+.computer-selection, .player-selection{
+    margin-top: -25px;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: orange;
+  }
+
+  .message{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: -10px;
+}
