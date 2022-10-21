@@ -5,8 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+ <h1 class="heading">Rock, Paper, Scissors</h1>
+
+ <div class="content">
+
+    <div class="score">
+        <div class="player-score">0</div>
+        <div style="margin: 0px 30px">-</div>
+        <div class="computer-score">0</div>
+    </div>
+
+    <div class="message"></div>
+
+    <div class="pictures">
+
+        <div class="card">
+            <div class="card-image" data-image="rock">
+            <img src="images/rock.png" class="image" />
+            </div>
+            <div class="card-text">Rock</div>
+        </div>
+
+        <div class="card">
+            <div class="card-image" data-image="paper">
+            <img src="images/paper.png" class="image" />
+            </div>
+            <div class="card-text">Paper</div>
+        </div>
+
+        <div class="card">
+            <div class="card-image" data-image="scissors">
+            <img src="images/scissors.png" class="image" />
+            </div>
+            <div class="card-text">Scissors</div>
+        </div>
+
+    </div>
+
+    <div class="results">
+
+        <div class="results-side">
+            <h4 class="heading-sub" id="playerclass">Player</h4>
+            <div class="player-selection">
+            </div>
+        </div>
+
+        <div class="results-side">
+            <h4 class="heading-sub">Computer</h4>
+            <div class="computer-selection">
+            </div>
+        </div>
+
+    </div>
+
+ </div>
+
     <script src="script.js"></script>
+
 </body>
 </html>
